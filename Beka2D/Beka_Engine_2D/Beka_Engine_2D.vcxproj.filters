@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. D3D Component">
+      <UniqueIdentifier>{91283c4d-3618-43ab-8d1d-464d790348fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. D3D Component\3D">
+      <UniqueIdentifier>{90127718-0600-4368-89f4-770be7b2d32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. D3D Component\Input">
+      <UniqueIdentifier>{99c1e6e2-561b-4a9d-88d2-6bc98e66d955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. D3D Component\Sound">
+      <UniqueIdentifier>{669850ea-d505-4bdd-826b-590fa1c463f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Main Procedure">
+      <UniqueIdentifier>{ad112444-a256-4e60-aa5a-8e278b856c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="80. DesignPattern">
+      <UniqueIdentifier>{0657c1f8-6fa4-46a8-abf5-304d2381c664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Core Procedure">
+      <UniqueIdentifier>{c3e8ecb4-89fd-4006-91e7-e32e10580e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object">
+      <UniqueIdentifier>{4ee2acb2-8e97-45b3-9744-d9d24f3ea486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager">
+      <UniqueIdentifier>{10dc5158-2af2-4feb-a7b3-c076352d9b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\00. SceneManager">
+      <UniqueIdentifier>{06f1ff09-5496-4e35-b848-022707d0d6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\02. TransitionManager">
+      <UniqueIdentifier>{36ea66e8-1b99-4502-a7fa-2114bbe76f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\02. TransitionManager\00. TransitionType">
+      <UniqueIdentifier>{6e029f90-68a7-4083-95e7-8fdf67484cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\02. TransitionManager\00. TransitionType\Fade">
+      <UniqueIdentifier>{276fd898-2614-40b1-907c-5a8febaa8348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\00. SceneManager\SceneHeader">
+      <UniqueIdentifier>{eedeb26c-c381-4c82-a585-db69f1a5d385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\00. Interface">
+      <UniqueIdentifier>{4c240861-edd9-4ab1-b87f-1185b753c08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\00. Interface\00. Scene">
+      <UniqueIdentifier>{661e0dad-d9c6-47f3-bf76-02cc7b07b1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\00. Interface\01. Transition">
+      <UniqueIdentifier>{ec18b8cf-81b3-4aac-9023-bed5978ebbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\01. Texture">
+      <UniqueIdentifier>{0230b5f0-54a9-4589-9d7e-9ab9f65efcb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\02. UIObject">
+      <UniqueIdentifier>{a334b72a-ac17-46d0-ae59-131180422eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Scene">
+      <UniqueIdentifier>{c44f2db2-38ef-49e7-98d0-f3b563d0e8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Scene\00.StartScene">
+      <UniqueIdentifier>{fce07b4b-9fe7-470c-b6c3-4fccfecd3aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\02. UIObject\00. Base">
+      <UniqueIdentifier>{4493026a-8570-4354-b0c2-07f014bda760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\02. UIObject\01.">
+      <UniqueIdentifier>{3bb210fc-fb3b-45de-aebc-5908f137bb84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\03. FileIO">
+      <UniqueIdentifier>{52939082-647b-4cc9-972b-4d3c4ceaaad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\04. BGManager">
+      <UniqueIdentifier>{9dfa3687-a3f3-4c72-9a40-4bffff3dfbfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header">
+      <UniqueIdentifier>{593d3814-5ac1-44eb-aff1-450c392281f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header\DefineValue">
+      <UniqueIdentifier>{bde56d0b-1ebb-473b-97e9-e5be305ad69d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\05. CameraManager">
+      <UniqueIdentifier>{c18b1a82-75a4-42de-a5c4-6e171c45dfa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. Player">
+      <UniqueIdentifier>{37d7f402-40d8-4be2-bc46-0acefa1348b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. Player\01. Running">
+      <UniqueIdentifier>{eb427a69-4431-4b51-b6aa-422231112682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. Player\02. RPG">
+      <UniqueIdentifier>{e8548b7e-687b-4142-8192-1f5e18d8e085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\04. Tile">
+      <UniqueIdentifier>{931eedb3-05e4-4f67-be7f-2570d17c9e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\05. BackGorund">
+      <UniqueIdentifier>{b508f71d-f040-410d-8add-18f7f80989ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\06. TileManager">
+      <UniqueIdentifier>{5fe7338b-5d08-4586-8c2e-6701e1c40703}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>01. Main Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>00. D3D Component\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput.cpp">
+      <Filter>00. D3D Component\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectSound.cpp">
+      <Filter>00. D3D Component\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>02. Core Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>03. Object\00. Interface\00. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>04. Manager\00. SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TransitionManager.cpp">
+      <Filter>04. Manager\02. TransitionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Transition.cpp">
+      <Filter>03. Object\00. Interface\01. Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>04. Manager\02. TransitionManager\00. TransitionType\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeLeft.cpp">
+      <Filter>04. Manager\02. TransitionManager\00. TransitionType\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeRight.cpp">
+      <Filter>04. Manager\02. TransitionManager\00. TransitionType\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>03. Object\01. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>05. Scene\00.StartScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObject.cpp">
+      <Filter>03. Object\02. UIObject\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>04. Manager\03. FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="BGManager.cpp">
+      <Filter>04. Manager\04. BGManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>04. Manager\05. CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>03. Object\03. Player\01. Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>03. Object\04. Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>03. Object\05. BackGorund</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>04. Manager\06. TileManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Direct3D.h">
+      <Filter>00. D3D Component\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>80. DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput.h">
+      <Filter>00. D3D Component\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectSound.h">
+      <Filter>00. D3D Component\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>02. Core Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>03. Object\00. Interface\00. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>04. Manager\00. SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TransitionManager.h">
+      <Filter>04. Manager\02. TransitionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Transition.h">
+      <Filter>03. Object\00. Interface\01. Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>04. Manager\02. TransitionManager\00. TransitionType\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeLeft.h">
+      <Filter>04. Manager\02. TransitionManager\00. TransitionType\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeRight.h">
+      <Filter>04. Manager\02. TransitionManager\00. TransitionType\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneHeader.h">
+      <Filter>04. Manager\00. SceneManager\SceneHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>03. Object\01. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>05. Scene\00.StartScene</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObject.h">
+      <Filter>03. Object\02. UIObject\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>04. Manager\03. FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="ValuesHeader.h">
+      <Filter>99. Header\DefineValue</Filter>
+    </ClInclude>
+    <ClInclude Include="BGManager.h">
+      <Filter>04. Manager\04. BGManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>04. Manager\05. CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>03. Object\03. Player\01. Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>03. Object\04. Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>03. Object\05. BackGorund</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>04. Manager\06. TileManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Beka_Engine_2D.rc" />
+  </ItemGroup>
+</Project>

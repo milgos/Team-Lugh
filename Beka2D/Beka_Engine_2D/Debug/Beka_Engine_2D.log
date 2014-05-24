@@ -1,0 +1,72 @@
+﻿빌드 시작: 2014-05-18 오후 2:45:37
+     1>2 노드의 "G:\프로젝트\용석엔진\Beka_Engine_2D\Beka_Engine_2D.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Debug\Beka_Engine_2D.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BGManager.cpp BackGround.cpp CameraManager.cpp Core.cpp SceneManager.cpp StartScene.cpp Tile.cpp TileManager.cpp
+         Core.cpp
+         c:\program files\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>g:\프로젝트\용석엔진\beka_engine_2d\core.cpp(196): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files\microsoft visual studio 10.0\vc\include\swprintf.inl(85) : 'swprintf' 선언을 참조하십시오.
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         TileManager.cpp
+     1>g:\프로젝트\용석엔진\beka_engine_2d\tilemanager.cpp(107): warning C4018: '>' : signed 또는 unsigned가 일치하지 않습니다.
+         Tile.cpp
+         StartScene.cpp
+         c:\program files\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>g:\프로젝트\용석엔진\beka_engine_2d\startscene.cpp(19): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+         SceneManager.cpp
+         CameraManager.cpp
+         BackGround.cpp
+     1>g:\프로젝트\용석엔진\beka_engine_2d\background.cpp(37): warning C4244: '인수' : 'float'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>g:\프로젝트\용석엔진\beka_engine_2d\background.cpp(41): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>g:\프로젝트\용석엔진\beka_engine_2d\background.cpp(41): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>g:\프로젝트\용석엔진\beka_engine_2d\background.cpp(49): warning C4244: '인수' : 'float'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>g:\프로젝트\용석엔진\beka_engine_2d\background.cpp(52): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>g:\프로젝트\용석엔진\beka_engine_2d\background.cpp(52): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         BGManager.cpp
+         코드를 생성하고 있습니다...
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\프로젝트\용석엔진\Debug\Beka_Engine_2D.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Beka_Engine_2D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\프로젝트\용석엔진\Debug\Beka_Engine_2D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\프로젝트\용석엔진\Debug\Beka_Engine_2D.lib" /MACHINE:X86 Debug\Beka_Engine_2D.res
+         Debug\Beka_Engine_2D.exe.embed.manifest.res
+         Debug\BackGround.obj
+         Debug\BGManager.obj
+         Debug\CameraManager.obj
+         Debug\Core.obj
+         Debug\Direct3D.obj
+         Debug\DirectInput.obj
+         Debug\DirectSound.obj
+         Debug\Fade.obj
+         Debug\FadeLeft.obj
+         Debug\FadeRight.obj
+         Debug\FileIO.obj
+         Debug\main.obj
+         Debug\Player.obj
+         Debug\Scene.obj
+         Debug\SceneManager.obj
+         Debug\StartScene.obj
+         Debug\Texture.obj
+         Debug\Tile.obj
+         Debug\TileManager.obj
+         Debug\Transition.obj
+         Debug\TransitionManager.obj
+         Debug\UIObject.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Beka_Engine_2D.exe.embed.manifest" /manifest Debug\Beka_Engine_2D.exe.intermediate.manifest
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         Beka_Engine_2D.vcxproj -> G:\프로젝트\용석엔진\Debug\Beka_Engine_2D.exe
+       FinalizeBuildStatus:
+         "Debug\Beka_Engine_2D.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\Beka_Engine_2D.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"G:\프로젝트\용석엔진\Beka_Engine_2D\Beka_Engine_2D.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:22.35
